@@ -1,0 +1,17 @@
+{
+	"name": "detectivebot",
+	"version": "1.0.0",
+	"description": " ",
+	"main": "index.js",
+	"private": "true",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node app.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"discord.js": "^12.5.1",
+		"fs": "0.0.1-security"
+	}
+}
