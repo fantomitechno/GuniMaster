@@ -1,5 +1,5 @@
 module.exports = async(client, message) => {
-    let prefix = client.config.prefix
+    let prefix = 'm-'
     if (message.author.bot) return
     if (!message.content.startsWith(prefix)) return
     let args = message.content.split(" ");
